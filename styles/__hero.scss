@@ -1,0 +1,14 @@
+.hero{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero__title{
+    font-weight: 700px;
+    font-size: 28px;
+    line-height: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 100px 40px;
+}

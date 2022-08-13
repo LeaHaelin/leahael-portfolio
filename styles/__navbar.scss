@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap'); //logo font
+
+
+.navbar{
+    border: solid 1px palevioletred;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 16px;
+}
+
+.navbar__logo{
+    font-family: 'Bungee Inline', cursive;
+}
+
+.navbar__logo--reload{
+    text-decoration: none;
+    color: rgb(183, 112, 249);
+}
+
+
+.navbar__menu{
+    border: solid 1px forestgreen;
+    list-style: none;
+    width: 375px;
+    height: 60px;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.navbar__menu-btn{
+    width: 40px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 4px;
+}
+
+.navbar__menu-btn:hover{
+    cursor: pointer;
+}
+
+.menu-btn__bar{
+    width: 40px;
+    height: 7px;
+    border-radius: 5px;
+    background-color: rgb(124, 162, 149);
+}
+
+.menu__category{
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+.menu__category--link{
+    text-decoration: none;
+}
+
+.menu__category:hover{
+    cursor: pointer;
+    background-color: rgba(255, 228, 196, 0.303);
+    box-shadow: 1px 1px 3px 0px;
+}

@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap");
+.navbar {
+  border: solid 1px palevioletred;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 16px;
+}
+
+.navbar__logo {
+  font-family: "Bungee Inline", cursive;
+}
+
+.navbar__logo--reload {
+  text-decoration: none;
+  color: rgb(183, 112, 249);
+}
+
+.navbar__menu {
+  border: solid 1px forestgreen;
+  list-style: none;
+  width: 375px;
+  height: 60px;
+  position: absolute;
+  top: 60px;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.navbar__menu-btn {
+  width: 40px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 4px;
+}
+
+.navbar__menu-btn:hover {
+  cursor: pointer;
+}
+
+.menu-btn__bar {
+  width: 40px;
+  height: 7px;
+  border-radius: 5px;
+  background-color: rgb(124, 162, 149);
+}
+
+.menu__category {
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 4px;
+  border-radius: 10px;
+}
+
+.menu__category--link {
+  text-decoration: none;
+}
+
+.menu__category:hover {
+  cursor: pointer;
+  background-color: rgba(255, 228, 196, 0.303);
+  box-shadow: 1px 1px 3px 0px;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero__title {
+  font-weight: 700px;
+  font-size: 28px;
+  line-height: 60px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 100px 40px;
+}
+
+.profile {
+  border: solid rebeccapurple 1px;
+}
+
+.profile__photo {
+  width: 240px;
+  border-radius: 120px;
+  border: 6px solid rgba(98, 133, 237, 0.581);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 375px;
+  border: solid 1px black;
+  position: relative;
+}/*# sourceMappingURL=app.css.map */
