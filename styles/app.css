@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Merriweather+Sans:ital,wght@0,400;1,500;1,700&family=Signika+Negative:wght@400;500;700&display=swap");
 .navbar {
   border: solid 1px palevioletred;
   display: flex;
@@ -28,6 +29,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
+  display: none;
 }
 
 .navbar__menu-btn {
@@ -64,17 +66,20 @@
 
 .menu__category:hover {
   cursor: pointer;
-  background-color: rgba(255, 228, 196, 0.303);
-  box-shadow: 1px 1px 3px 0px;
+  color: rgb(112, 162, 216);
+  background-color: rgba(255, 228, 196, 0);
+  box-shadow: 1px 2px 1px 0px rgba(188, 125, 250, 0.564);
+  padding: 10px;
 }
 
 .hero {
-  height: 100vh;
+  min-height: 600px;
   display: flex;
   align-items: center;
 }
 
 .hero__title {
+  font-family: "Signika Negative", sans-serif;
   font-weight: 700px;
   font-size: 28px;
   line-height: 60px;
@@ -85,12 +90,179 @@
 
 .profile {
   border: solid rebeccapurple 1px;
+  text-align: center;
+  font-family: "Merriweather Sans", sans-serif;
 }
 
 .profile__photo {
   width: 240px;
   border-radius: 120px;
   border: 6px solid rgba(98, 133, 237, 0.581);
+  margin-top: 20px;
+}
+
+.profile__text {
+  border: solid rgb(97, 153, 51) 1px;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.profile__header {
+  font-weight: 700;
+  font-synthesis: 32px;
+}
+
+.profile__job-title {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.profile__phrase {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  padding: 30px;
+}
+
+.skills {
+  font-family: "Signika Negative", sans-serif;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+
+.skills__title {
+  text-align: center;
+}
+
+.skills__title--icon {
+  width: 80px;
+}
+
+.skills__title--name {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.skills__items {
+  border: solid 1px rebeccapurple;
+}
+
+.skills__item {
+  border: 1px solid rgba(0, 255, 183, 0.532);
+  margin-top: 20px;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+}
+
+.skills__item--logo {
+  display: flex;
+  align-items: center;
+  width: 140px;
+  margin-right: 6px;
+}
+
+.skills__item--icon {
+  width: 36px;
+  padding: 4px;
+}
+
+.skills__item--name {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.skills__graph {
+  border: 1px solid greenyellow;
+  width: 200px;
+  height: 24px;
+  background-color: antiquewhite;
+  border-radius: 10px;
+}
+
+.skills__graph--inner {
+  background-color: rgb(3, 47, 33);
+  border: 1px solid rebeccapurple;
+  text-align: right;
+  border-radius: 10px;
+  padding: 0 4px;
+}
+
+.projects {
+  margin-top: 40px;
+  border: solid 1px rgb(207, 23, 54);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.projects__title {
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.projects__cards {
+  width: 2000px;
+  border: solid 1px rgb(23, 207, 130);
+  display: flex;
+  justify-content: left;
+}
+
+.projects__card {
+  width: 300px;
+  height: 250px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 25%;
+  position: relative;
+  margin-right: 20px;
+}
+
+.projects__card:nth-child(1) {
+  background-image: url("/images/Screenshot 2022-08-21 at 21.14.07.png");
+}
+
+.projects__card:nth-child(2) {
+  background-color: rgb(226, 58, 12);
+}
+
+.projects__card:nth-child(4) {
+  background-color: yellow;
+}
+
+.projects__card:nth-child(3) {
+  background-color: rgb(144, 238, 109);
+}
+
+.projects__card:nth-child(5) {
+  background-color: rgb(77, 90, 227);
+}
+
+.projects__card--keyword {
+  width: 300px;
+  height: 250px;
+  border: solid 1px rgb(48, 23, 207);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 15px;
+  color: transparent;
+  font-weight: 500;
+  font-size: 16px;
+  display: flex;
+  justify-content: start;
+  align-items: flex-end;
+  padding: 30px;
+}
+
+.projects__card--keyword:hover {
+  color: black;
+  transition: 0.3s ease-in;
+  background: linear-gradient(0deg, rgba(251, 251, 251, 0.0186668417) 0%, rgb(174, 185, 249) 0%, rgba(63, 90, 245, 0.0438769258) 100%, rgba(63, 90, 245, 0.0186668417) 100%);
 }
 
 * {

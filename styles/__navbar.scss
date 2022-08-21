@@ -31,6 +31,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
+    display: none;
 }
 
 .navbar__menu-btn{
@@ -67,6 +68,8 @@
 
 .menu__category:hover{
     cursor: pointer;
-    background-color: rgba(255, 228, 196, 0.303);
-    box-shadow: 1px 1px 3px 0px;
+    color: rgb(112, 162, 216);
+    background-color: rgba(255, 228, 196, 0);
+    box-shadow: 1px 2px 1px 0px rgba(188, 125, 250, 0.564);
+    padding: 10px;
 }

@@ -1,9 +1,33 @@
 .profile{
     border: solid rebeccapurple 1px;
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 .profile__photo{
     width: 240px;
     border-radius: 120px;
     border: 6px solid rgba(98, 133, 237, 0.581);
+    margin-top: 20px;
+}
+
+.profile__text{
+    border: solid rgb(97, 153, 51) 1px;
+    margin-top: 20px;
+    padding: 20px;
+}
+.profile__header{
+    font-weight: 700;
+    font-synthesis: 32px;
+}
+.profile__job-title{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+}
+.profile__phrase{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 30px;
 }
