@@ -1,0 +1,30 @@
+.contact{
+    text-align: center;
+    margin: 60px 0;
+    position: relative;
+}
+
+.contact__icon{
+    width: 60px;
+}
+
+.icon--email{
+    padding: 8px;
+}
+.icon--github{
+    padding: 5px;
+}
+
+.contact__link{
+    text-decoration: none;
+}
+
+.go-up{
+    width: 26px;
+    position: fixed;
+    bottom: 30px;
+    right: 3%;
+    opacity: 0.8;
+    border-radius: 50px;
+    background-color: white;
+}

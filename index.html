@@ -15,29 +15,30 @@
         >
         <ul class="navbar__menu">
           <li class="menu__category category-home">
-            <a class="menu__category--link" href="#">home</a>
+            <a class="menu__category--link" href="#hero">home</a>
           </li>
           <li class="menu__category category-profile">
-            <a class="menu__category--link" href="#">profile</a>
+            <a class="menu__category--link" href="#profile">profile</a>
           </li>
           <li class="menu__category category-projects">
-            <a class="menu__category--link" href="#">projects</a>
+            <a class="menu__category--link" href="#projects">projects</a>
           </li>
           <li class="menu__category category-contact">
-            <a class="menu__category--link" href="#">contact</a>
+            <a class="menu__category--link" href="#contact">contact</a>
           </li>
         </ul>
         <div class="navbar__menu-btn">
           <span class="menu-btn__bar first"></span>
           <span class="menu-btn__bar second"></span>
-          <span class="menu-btn__bar third"></span>
+          <span class="menu-btn__bar last"></span>
         </div>
       </nav>
-      <main class="hero">
+      <main class="hero" id="hero">
         <h2 class="hero__title">learn and share. make things better:)</h2>
+        <img class="hero__icon" src="./images/icons/icon-leaf.svg" alt="" />
       </main>
 
-      <section class="profile">
+      <section class="profile" id="profile">
         <img
           src="./images/profile-photo-lea.JPG"
           alt=""
@@ -55,10 +56,10 @@
         </div>
       </section>
 
-      <section class="skills">
+      <section class="skills" id="skills">
         <div class="skills__title">
           <img
-            src="./images/skills_icon.png"
+            src="./images/icons/skills_icon.png"
             alt=""
             class="skills__title--icon"
           />
@@ -66,10 +67,13 @@
         </div>
         <!-- items -->
         <div class="skills__items">
+          <div class="skills__describe">
+            <p class="skills__describe--text"></p>
+          </div>
           <div class="skills__item">
             <div class="skills__item--logo">
               <img
-                src="./images/html_icon.png"
+                src="./images/icons/html_icon.png"
                 alt=""
                 class="skills__item--icon"
               />
@@ -82,10 +86,13 @@
             </div>
           </div>
 
+          <div class="skills__describe">
+            <p class="skills__describe--text"></p>
+          </div>
           <div class="skills__item">
             <div class="skills__item--logo">
               <img
-                src="./images/css_icon.png"
+                src="./images/icons/css_icon.png"
                 alt=""
                 class="skills__item--icon"
               />
@@ -98,10 +105,13 @@
             </div>
           </div>
 
+          <div class="skills__describe">
+            <p class="skills__describe--text"></p>
+          </div>
           <div class="skills__item">
             <div class="skills__item--logo">
               <img
-                src="./images/js_icon.png"
+                src="./images/icons/js_icon.png"
                 alt=""
                 class="skills__item--icon"
               />
@@ -114,10 +124,13 @@
             </div>
           </div>
 
+          <div class="skills__describe">
+            <p class="skills__describe--text"></p>
+          </div>
           <div class="skills__item">
             <div class="skills__item--logo">
               <img
-                src="./images/sass_icon.png"
+                src="./images/icons/sass_icon.png"
                 alt=""
                 class="skills__item--icon"
               />
@@ -130,10 +143,13 @@
             </div>
           </div>
 
+          <div class="skills__describe">
+            <p class="skills__describe--text"></p>
+          </div>
           <div class="skills__item">
             <div class="skills__item--logo">
               <img
-                src="./images/figma_icon.png"
+                src="./images/icons/figma_icon.png"
                 alt=""
                 class="skills__item--icon"
               />
@@ -146,10 +162,13 @@
             </div>
           </div>
 
+          <div class="skills__describe">
+            <p class="skills__describe--text"></p>
+          </div>
           <div class="skills__item">
             <div class="skills__item--logo">
               <img
-                src="./images/responsive_icon.png"
+                src="./images/icons/responsive_icon.png"
                 alt=""
                 class="skills__item--icon"
               />
@@ -167,30 +186,165 @@
         </div>
       </section>
 
-      <section class="projects">
+      <section class="projects" id="projects">
         <h2 class="projects__title">projects</h2>
         <div class="projects__cards">
-          <div class="projects__card">
-            <p class="projects__card--keyword">modal</p>
+          <div class="projects__card single">
+            <a
+              href="https://lea-fem-singlepage.netlify.app/"
+              class="projects__link"
+              target="_blank"
+            >
+              <p class="projects__card--keyword">
+                ✏️1 : Grid, Flexbox, 3 type of Responsive web design
+              </p></a
+            >
           </div>
-          <div class="projects__card">
-            <p class="projects__card--keyword"></p>
+          <div class="projects__card second-card loopstudip">
+            <a
+              href="https://fem-lea-loopstudio.netlify.app/"
+              class="projects__link"
+              target="_blank"
+            >
+              <p class="projects__card--keyword">
+                ✏️ 2: Grid, Overlay, under-line Navigation-bar
+              </p></a
+            >
           </div>
-          <div class="projects__card">
-            <p class="projects__card--keyword">modal</p>
+          <div class="projects__card intro">
+            <a
+              href="https://fem-lea-intro-component.netlify.app/"
+              class="projects__link"
+              target="_blank"
+            >
+              <p class="projects__card--keyword">
+                ✏️ 3: submit form and Email validation
+              </p></a
+            >
           </div>
-          <div class="projects__card">
-            <p class="projects__card--keyword">modal</p>
+          <div class="projects__card snap">
+            <a
+              href="https://leafrontendmentor-introsection.netlify.app/"
+              class="projects__link"
+              target="_blank"
+            >
+              <p class="projects__card--keyword">
+                ✏️ 4: Navigation-bar, Flexbox
+              </p></a
+            >
           </div>
-          <div class="projects__card">
-            <p class="projects__card--keyword">modal</p>
+          <div class="projects__card dice">
+            <a
+              href="https://lea-fem-dice.netlify.app/"
+              class="projects__link"
+              target="_blank"
+            >
+              <p class="projects__card--keyword">
+                ✏️ 5: React, API and Random quotes
+              </p></a
+            >
+          </div>
+          <div class="projects__card pod">
+            <a
+              href="https://lea-fem-pod-request.netlify.app/"
+              class="projects__link"
+              target="_blank"
+            >
+              <p class="projects__card--keyword">✏️ 6:Email validation</p></a
+            >
           </div>
         </div>
+        <div class="projects__buttons">
+          <img
+            src="./images/slide-img/icon-arrow-left.svg"
+            alt=""
+            class="projects__button left"
+          />
+          <img
+            src="./images/slide-img/icon-arrow-right.svg"
+            alt=""
+            class="projects__button right"
+          />
+        </div>
       </section>
-      <section class="courses"></section>
+      <section class="documents">
+        <img
+          class="documents__icon icon--certificate"
+          src="./images/icons/icon-certification.png"
+          alt="certificate"
+        />
+        <div class="documents__modal modal--certificates">
+          <img
+            src="./images/certificate-cv/Freecodecamp certification.png"
+            alt=""
+            class="documents__certificate"
+          />
+          <img
+            src="./images/certificate-cv/udemy_understandingHTMLandCSS-certificate.png"
+            alt=""
+            class="documents__certificate"
+          />
+          <button class="documents__button--close">&times;</button>
+        </div>
+        <a
+          href="./images/certificate-cv/LeaHaelin Kim-Resume.pdf"
+          target="_blank"
+          ><img
+            class="documents__icon"
+            src="./images/icons/icon-CV.png"
+            alt="CV"
+        /></a>
+      </section>
       <footer>
-        <section class="contact"></section>
+        <section class="contact" id="contact">
+          <a
+            class="contact__link"
+            href="mailto:lea8haelin@gmail.com"
+            target="_blank"
+          >
+            <img
+              src="./images/icons/icon-email.svg"
+              alt="email"
+              class="contact__icon icon--email"
+            />
+          </a>
+          <a
+            class="contact__link"
+            href="https://www.linkedin.com/in/lea-haelin-kim-41196520a/"
+            target="_blank"
+          >
+            <img
+              src="./images/icons/icon-linkedin.svg"
+              alt="linkedin"
+              class="contact__icon icon--linkedin"
+            />
+          </a>
+          <a
+            class="contact__link"
+            href="https://github.com/LeaHaelin"
+            target="_blank"
+          >
+            <img
+              src="./images/icons/icon-github.svg"
+              alt="Github"
+              class="contact__icon icon--github"
+            />
+          </a>
+          <a
+            class="contact__link"
+            href="https://www.instagram.com/lea_mallang_hael/?hl=en"
+            target="_blank"
+          >
+            <img
+              src="./images/icons/icon-instagram.svg"
+              alt="Github"
+              class="contact__icon icon--instagram"
+            />
+          </a>
+        </section>
+        <img src="./images/icons/icon-arrow-up.svg" alt="" class="go-up" />
       </footer>
     </div>
   </body>
+  <script src="./app.js"></script>
 </html>

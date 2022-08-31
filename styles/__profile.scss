@@ -1,5 +1,4 @@
 .profile{
-    border: solid rebeccapurple 1px;
     text-align: center;
     font-family: 'Merriweather Sans', sans-serif;
 }
@@ -7,12 +6,11 @@
 .profile__photo{
     width: 240px;
     border-radius: 120px;
-    border: 6px solid rgba(98, 133, 237, 0.581);
+    border: 6px solid #277bc08a;
     margin-top: 20px;
 }
 
 .profile__text{
-    border: solid rgb(97, 153, 51) 1px;
     margin-top: 20px;
     padding: 20px;
 }

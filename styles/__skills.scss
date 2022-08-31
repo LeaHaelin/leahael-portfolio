@@ -1,7 +1,7 @@
 .skills{
     font-family: 'Signika Negative', sans-serif;
     text-transform: uppercase;
-    margin-top: 40px;
+    margin: 40px 20px 0px;
 }
 
 // skills title/logo
@@ -18,18 +18,12 @@
     font-size: 18px;
 }
 
-//contents
-
-.skills__items{
-    border: solid 1px rebeccapurple;
-}
 
 .skills__item{
-    border: 1px solid rgba(0, 255, 183, 0.532);
-    margin-top: 20px;
+    margin: 20px 10px 0px 10px;
     padding: 0 10px;
     display: flex;
-    align-items: center     ;
+    align-items: center;
 }
 
 //item logo box
@@ -53,17 +47,20 @@
 
 // skills graph
 .skills__graph{
-    border: 1px solid greenyellow;
+    border: 1px solid honeydew;
     width: 200px;
-    height: 24px;
-    background-color: antiquewhite;
+    height: 22px;
+    background-color: skyblue;
     border-radius: 10px;
 }
 
 .skills__graph--inner{
-    background-color: rgb(3, 47, 33);
-    border: 1px solid rebeccapurple;
-    text-align: right;
+    height: 22px;
+    background-color: rgb(15, 46, 171);
+    border: 1px solid honeydew;
+    display: flex;
+    justify-content: right;
+    align-items: center;
     border-radius: 10px;
-    padding: 0 4px;
+    padding: 0 5px;
 }

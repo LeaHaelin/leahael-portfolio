@@ -2,11 +2,12 @@
 
 
 .navbar{
-    border: solid 1px palevioletred;
+    min-width: 375px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px 16px;
+    background-color: #B2A4FF;
 }
 
 .navbar__logo{
@@ -15,25 +16,10 @@
 
 .navbar__logo--reload{
     text-decoration: none;
-    color: rgb(183, 112, 249);
+    color: #FFEE63;
 }
 
-
-.navbar__menu{
-    border: solid 1px forestgreen;
-    list-style: none;
-    width: 375px;
-    height: 60px;
-    position: absolute;
-    top: 60px;
-    right: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-    display: none;
-}
-
+// menu hamburger button  
 .navbar__menu-btn{
     width: 40px;
     height: 30px;
@@ -51,25 +37,59 @@
     width: 40px;
     height: 7px;
     border-radius: 5px;
-    background-color: rgb(124, 162, 149);
+    background-color: #FFEEAF;
 }
 
+.first.change{
+    position: relative;
+    top: 9.6px;
+    transform: rotate(45deg);
+}
+.second.change{
+    opacity: 0;
+}
+.last.change{
+    position: relative;
+    bottom: 13px;
+    transform: rotate(-45deg);
+}
+
+// navbar menu container
+.navbar__menu{
+    background-color: #96BAFF;
+    list-style: none;
+    width: 375px;
+    height: 60px;
+    position: absolute;
+    top: 58px;
+    right: 0;
+    padding: 0 20px;
+    display: none;
+}
+
+.active{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+// menu inner box
 .menu__category{
     font-weight: 700;
     font-size: 16px;
     text-transform: uppercase;
     padding: 4px;
-    border-radius: 10px;
+    border-radius: 3px;
+    border: none;
 }
 
 .menu__category--link{
     text-decoration: none;
+    color: white;
 }
 
-.menu__category:hover{
+.menu__category--link:hover{
     cursor: pointer;
-    color: rgb(112, 162, 216);
-    background-color: rgba(255, 228, 196, 0);
-    box-shadow: 1px 2px 1px 0px rgba(188, 125, 250, 0.564);
-    padding: 10px;
+    color: #F7FD04;
+    box-shadow: 0px 1px 2px 0px rgba(245, 245, 245, 0.564);
 }

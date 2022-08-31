@@ -1,8 +1,16 @@
 
 .hero{
-    min-height: 600px;
+    margin: 80px auto;
     display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    position: relative;
+    border: 6px solid #9C9EFE;
+    border-radius: 5px;
+    height: 480px;
+    width: 350px;
+    background-color: #F9F9F9;
 }
 
 .hero__title{
@@ -12,5 +20,12 @@
     line-height: 60px;
     text-transform: uppercase;
     text-align: center;
-    padding: 100px 40px;
+    padding: 0px 40px;
+    color: #6A67CE;
+}
+
+.hero__icon{
+    width: 160px;
+    opacity: 0.6;
+    padding-left: 10px;
 }
