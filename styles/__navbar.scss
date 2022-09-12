@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap'); //logo font
-
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap'); //menu category
 .navbar{
-    min-width: 375px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px 16px;
     background-color: #B2A4FF;
+    position: relative;
+    max-width: none;
+    width: 100%;
 }
 
 .navbar__logo{
@@ -56,31 +57,34 @@
 
 // navbar menu container
 .navbar__menu{
-    background-color: #96BAFF;
+    background-color: #4c80e0be;
     list-style: none;
-    width: 375px;
-    height: 60px;
+    min-width: 180px;
+    height: 100vh;
     position: absolute;
     top: 58px;
     right: 0;
     padding: 0 20px;
     display: none;
+    border-bottom-left-radius: 10px;
 }
 
 .active{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 // menu inner box
 .menu__category{
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 16px;
     text-transform: uppercase;
     padding: 4px;
     border-radius: 3px;
     border: none;
+    margin-top: 20px;
 }
 
 .menu__category--link{
@@ -90,6 +94,6 @@
 
 .menu__category--link:hover{
     cursor: pointer;
-    color: #F7FD04;
+    color: #f3f3a0;
     box-shadow: 0px 1px 2px 0px rgba(245, 245, 245, 0.564);
 }

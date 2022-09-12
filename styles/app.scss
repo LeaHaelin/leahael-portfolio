@@ -6,11 +6,13 @@
 @import "./_documents";
 @import "./_contact";
 
-@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Merriweather+Sans:ital,wght@0,400;1,500;1,700&family=Signika+Negative:wght@400;500;700&display=swap');
-// font-family: 'Aboreto', cursive;
-// font-family: 'Merriweather Sans', sans-serif;
-// font-family: 'Signika Negative', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=family=Merriweather+Sans:ital,wght@0,400;1,500;1,700&family=Signika+Negative:wght@400;500;700&display=swap');
+// font-family: 'Merriweather Sans', sans-serif; profile text
+// font-family: 'Signika Negative', sans-serif; section title and skills all.
 
+$mobile: 375px;
+$tablet: 760px;
+$desktop: 1400px;
 *{
     padding: 0;
     margin: 0;
@@ -22,6 +24,11 @@ html{
 
 .container{
     margin: 0 auto;
-    max-width: 375px;
-    position: relative;
+    max-width: $mobile;
+}
+
+@media(min-width:600px){
+    .container{
+        max-width: $tablet;
+    }
 }

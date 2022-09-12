@@ -1,27 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap'); //hero text
 
 .hero{
-    margin: 80px auto;
+    margin: 120px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    position: relative;
-    border: 6px solid #9C9EFE;
+    // border: 2px solid #9C9EFE;
     border-radius: 5px;
     height: 480px;
     width: 350px;
-    background-color: #F9F9F9;
 }
 
 .hero__title{
-    font-family: 'Signika Negative', sans-serif;
+    font-family: 'Acme', sans-serif;
     font-weight: 700px;
     font-size: 28px;
-    line-height: 60px;
+    line-height: 50px;
     text-transform: uppercase;
     text-align: center;
     padding: 0px 40px;
-    color: #6A67CE;
+    color: #5f8ada;
 }
 
 .hero__icon{
