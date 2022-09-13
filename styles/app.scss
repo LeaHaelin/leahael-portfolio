@@ -10,9 +10,6 @@
 // font-family: 'Merriweather Sans', sans-serif; profile text
 // font-family: 'Signika Negative', sans-serif; section title and skills all.
 
-$mobile: 375px;
-$tablet: 760px;
-$desktop: 1400px;
 *{
     padding: 0;
     margin: 0;
@@ -24,11 +21,19 @@ html{
 
 .container{
     margin: 0 auto;
-    max-width: $mobile;
+    max-width: 375px;
 }
 
 @media(min-width:600px){
     .container{
-        max-width: $tablet;
+        max-width: 800px;
     }
 }
+
+@media(min-width:1200px){
+    .container{
+        max-width: none;
+        width: 100%;
+    }
+}
+

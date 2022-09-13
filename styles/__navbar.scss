@@ -60,7 +60,7 @@
     background-color: #4c80e0be;
     list-style: none;
     min-width: 180px;
-    height: 100vh;
+    height: 80vh;
     position: absolute;
     top: 58px;
     right: 0;
@@ -94,6 +94,45 @@
 
 .menu__category--link:hover{
     cursor: pointer;
-    color: #f3f3a0;
-    box-shadow: 0px 1px 2px 0px rgba(245, 245, 245, 0.564);
+    color: #f7e562;
+}
+
+@media(min-width:600px){
+    .menu__category{
+        font-size: 18px;
+    }
+}
+
+@media(min-width:1200px){
+    .navbar{
+        height: 70px;
+    }
+
+    .navbar__logo--reload{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
+    .navbar__menu-btn{
+        display: none;
+    }
+
+    .navbar__menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        align-items: center;
+        position: static;
+        top: 0;
+        height: 0;
+        padding: 0;
+        min-width: none;
+        border-bottom-left-radius: none;
+    }
+
+    .menu__category{
+        font-size: 20px;
+        padding: 10px;
+        margin-top: 0;
+    }
 }

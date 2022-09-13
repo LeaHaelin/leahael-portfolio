@@ -28,3 +28,28 @@
     opacity: 0.6;
     padding-left: 10px;
 }
+
+@media(min-width:600px){
+    .hero{
+        margin: 0 auto;
+        height: 100vh;
+    }
+    .hero__title{
+        padding: 20px;
+        width: 370px;
+        font-size: 36px;
+        line-height: 60px;
+    }
+
+    .hero__icon{
+        width: 200px;
+        margin-top: 0px;
+    }
+
+}
+
+@media(min-width:1200px){
+    .hero__title{
+        font-size: 38px;
+    }
+}

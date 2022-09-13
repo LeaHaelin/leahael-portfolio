@@ -30,3 +30,25 @@
     top: 0;
     left: 44%;
 }
+
+@media(min-width:600px){
+    .contact__icon{
+        width: 80px;
+    }    
+
+    .go-up{
+        width: 40px;
+        position: absolute;
+        top: 0;
+        left: 47%;
+    }
+}
+
+@media(min-width:1200px){
+    .go-up{
+        width: 60px;
+        position: absolute;
+        top: -10px;
+        left: 48%;
+    }
+}
