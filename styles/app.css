@@ -134,14 +134,13 @@
   }
 }
 .hero {
-  margin: 120px auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border-radius: 5px;
-  height: 480px;
   width: 350px;
+  height: 70vh;
+  margin: 70px auto;
 }
 
 .hero__title {
@@ -162,10 +161,6 @@
 }
 
 @media (min-width: 600px) {
-  .hero {
-    margin: 0 auto;
-    height: 100vh;
-  }
   .hero__title {
     padding: 20px;
     width: 370px;
@@ -188,7 +183,7 @@
 }
 
 .profile__photo {
-  width: 240px;
+  width: 200px;
   border-radius: 120px;
   border: 6px solid rgba(39, 123, 192, 0.5411764706);
   margin-top: 20px;
@@ -202,12 +197,14 @@
 .profile__header {
   font-weight: 700;
   font-synthesis: 32px;
+  color: rgb(61, 57, 57);
 }
 
 .profile__job-title {
   margin-top: 10px;
   font-weight: 400;
   font-size: 14px;
+  color: rgb(61, 57, 57);
 }
 
 .profile__phrase {
@@ -215,10 +212,12 @@
   font-size: 16px;
   line-height: 26px;
   padding: 30px;
+  color: rgb(61, 57, 57);
 }
 
 @media (min-width: 600px) {
   .profile__photo {
+    margin-top: 0;
     width: 300px;
     border-radius: 150px;
     border: 8px solid rgba(39, 123, 192, 0.5411764706);
@@ -257,7 +256,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 40px 20px 0px;
+  margin: 40px 20px 100px;
 }
 
 .skills__title {
@@ -271,6 +270,7 @@
 .skills__title--name {
   font-weight: 700;
   font-size: 18px;
+  color: rgb(61, 61, 66);
 }
 
 .skills__item {
@@ -295,6 +295,7 @@
 .skills__item--name {
   font-weight: 700;
   font-size: 14px;
+  color: rgb(59, 59, 83);
 }
 
 .skills__graph {
@@ -318,8 +319,8 @@
 
 @media (min-width: 600px) {
   .skills {
-    margin: 80px 20px;
-    height: 90vh;
+    margin: 40px 20px 100px;
+    padding: 30px 0;
   }
   .skills__title {
     margin-bottom: 30px;
@@ -360,7 +361,7 @@
 }
 @media (min-width: 1200px) {
   .skills {
-    margin: 100px 20px;
+    margin: 80px 20px;
   }
   .skills__title--name {
     font-size: 26px;
@@ -373,7 +374,6 @@
   }
 }
 .projects {
-  margin-top: 120px;
   text-align: center;
   text-transform: uppercase;
   position: relative;
@@ -383,6 +383,7 @@
   font-family: "Signika Negative", sans-serif;
   font-weight: 700;
   font-size: 28px;
+  color: rgb(61, 61, 66);
 }
 
 .projects__cards {
@@ -487,9 +488,6 @@
 }
 
 @media (min-width: 600px) {
-  .projects {
-    margin-top: 180px;
-  }
   .projects__title {
     font-size: 36px;
     margin-bottom: 40px;
@@ -523,8 +521,7 @@
     background-position: 50% 60%;
   }
   .projects__buttons {
-    min-width: 300px;
-    padding: 0 700px;
+    padding: 0 500px;
   }
   .projects__button {
     margin-top: 60px;
@@ -532,7 +529,7 @@
 }
 .documents {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 10px 40px;
   margin-top: 40px;
   position: relative;
@@ -587,6 +584,7 @@
 
 .documents__certificate {
   width: 330px;
+  margin-left: 50px;
 }
 
 @media (min-width: 600px) {
@@ -611,7 +609,6 @@
 @media (min-width: 1200px) {
   .documents {
     margin-top: 100px;
-    padding: 10px 500px;
   }
   .documents__icon {
     width: 300px;

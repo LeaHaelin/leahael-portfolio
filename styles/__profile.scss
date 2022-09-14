@@ -1,10 +1,11 @@
+$text: rgb(61, 57, 57);
 .profile{
     text-align: center;
     font-family: 'Merriweather Sans', sans-serif;
 }
 
 .profile__photo{
-    width: 240px;
+    width: 200px;
     border-radius: 120px;
     border: 6px solid #277bc08a;
     margin-top: 20px;
@@ -17,21 +18,25 @@
 .profile__header{
     font-weight: 700;
     font-synthesis: 32px;
+    color: $text;
 }
 .profile__job-title{
     margin-top: 10px;
     font-weight: 400;
     font-size: 14px;
+    color: $text;
 }
 .profile__phrase{
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     padding: 30px;
+    color: $text;
 }
 
 @media(min-width:600px){
     .profile__photo{
+        margin-top: 0;
         width: 300px;
         border-radius: 150px;
         border: 8px solid #277bc08a;

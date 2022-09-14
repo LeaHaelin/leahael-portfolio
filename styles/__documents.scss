@@ -1,6 +1,6 @@
 .documents{
     display: flex;
-    justify-content: space-between ;
+    justify-content: space-around ;
     padding: 10px 40px;
     margin-top: 40px;
     position: relative;
@@ -55,6 +55,7 @@
 
 .documents__certificate{
     width: 330px;
+    margin-left: 50px;
 }
 
 @media(min-width:600px){
@@ -82,7 +83,6 @@
 @media(min-width:1200px){
     .documents{
         margin-top: 100px;
-        padding: 10px 500px;
     }
 
     .documents__icon{

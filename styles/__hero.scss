@@ -1,15 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap'); //hero text
 
 .hero{
-    margin: 120px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    // border: 2px solid #9C9EFE;
-    border-radius: 5px;
-    height: 480px;
     width: 350px;
+    height: 70vh;
+    margin: 70px auto;
 }
 
 .hero__title{
@@ -30,10 +28,6 @@
 }
 
 @media(min-width:600px){
-    .hero{
-        margin: 0 auto;
-        height: 100vh;
-    }
     .hero__title{
         padding: 20px;
         width: 370px;
