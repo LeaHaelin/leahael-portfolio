@@ -17,9 +17,7 @@ function animationMenu (){
     }
 }
 
-// 2. skills graph accordion 
-
-// 3. project carousel
+// 2. project carousel
 const leftBtn = document.querySelector(".left");
 const rightBtn = document.querySelector(".right");
 const slidesContainer = document.querySelector(".projects__cards");
@@ -35,7 +33,7 @@ rightBtn.addEventListener("click", ()=>{
     slidesContainer.scrollLeft += slideWidth;
 })
 
-// 4.modal certificates
+// 3.modal certificates
 const certificatesModal = document.querySelector(".documents__modal");
 const openModal = document.querySelector(".icon--certificate");
 const closeModal = document.querySelector(".documents__button--close");
@@ -47,7 +45,7 @@ closeModal.addEventListener("click", ()=> {
     certificatesModal.classList.remove("active")
 })
 
-// 5.scroll up
+// 4.scroll up
 const arrowUp = document.querySelector(".go-up");
 
 arrowUp.addEventListener("click", ()=> {

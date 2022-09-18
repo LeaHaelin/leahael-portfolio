@@ -439,6 +439,10 @@
   background-image: url("/images/slide-img/pod-request.png");
 }
 
+.projects__card:nth-child(7) {
+  background-image: url("/images/slide-img/faq-accordion.png");
+}
+
 .projects__card--keyword {
   width: 300px;
   height: 250px;
@@ -656,6 +660,10 @@
   position: absolute;
   top: 0;
   left: 44%;
+}
+
+.go-up:hover {
+  cursor: pointer;
 }
 
 @media (min-width: 600px) {
